@@ -1,8 +1,7 @@
-import torch
-from torch.utils.data import Dataset
-from torchvision import datasets
-from torchvision.transforms import ToTensor, Lambda
 import matplotlib.pyplot as plt
+import torch
+from torchvision import datasets
+from torchvision.transforms import ToTensor
 
 training_data = datasets.FashionMNIST(
     root="data",
